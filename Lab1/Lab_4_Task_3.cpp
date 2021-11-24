@@ -1,4 +1,4 @@
-﻿#incude <iostream> // подключение библиотеки
+﻿#include <iostream> // подключение библиотеки
 using namespace std; // объявление пространтсва имён
 
 int a, b, sr_ar; // объявление перменных типа int
