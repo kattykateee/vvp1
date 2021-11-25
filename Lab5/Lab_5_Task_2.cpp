@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿#include <iostream>
 using namespace std;
 
@@ -11,3 +12,18 @@ int main()
 	BC = C - B;
 	cout << AC << " " << BC << " " << AC + BC << endl;
 }
+=======
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	cout << "Введите A, B, C" << endl;
+	int A, B, C, AC, BC;
+	cin >> A >> B >> C;
+	AC = C - A;
+	BC = C - B;
+	cout << AC << " " << BC << " " << AC + BC << endl;
+}
+>>>>>>> ebd3ae2c21165a5a60de75b724a394ec4d2e149b
